@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "club.axus.axuspixeldungeon.indev",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 574,
+      "versionName": "1.0.3-INDEV",
+      "outputFile": "android-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

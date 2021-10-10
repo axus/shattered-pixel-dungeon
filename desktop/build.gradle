@@ -3,7 +3,7 @@ apply plugin: "java"
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 sourceCompatibility = targetCompatibility = appJavaCompatibility
 
-ext.appMainClass = "com.shatteredpixel.shatteredpixeldungeon.desktop.DesktopLauncher"
+ext.appMainClass = "club.axus.axuspixeldungeon.desktop.DesktopLauncher"
 processResources {
     from new File(project(':core').projectDir, "/src/main/assets")
     from new File(project(':desktop').projectDir,"/src/main/assets")
@@ -50,7 +50,7 @@ task release(dependsOn: compileForRelease, type: Jar) {
 
     dependencies {
         releaseImplementation project(':services:updates:githubUpdates')
-        releaseImplementation project(':services:news:shatteredNews')
+        releaseImplementation project(':services:news:axusNews')
     }
 }
 

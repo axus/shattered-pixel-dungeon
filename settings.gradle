@@ -14,4 +14,4 @@ include ':services'
     include ':services:updates:githubUpdates'
     //news
     include ':services:news:debugNews'
-    include ':services:news:shatteredNews'
+    include ':services:news:axusNews'

@@ -1,5 +1,5 @@
 # retain these to support class references for the bundling and translation systems
--keepnames class com.shatteredpixel.** { *; }
+-keepnames class club.axus.** { *; }
 -keepnames class com.watabou.** { *; }
 
 # keep members of classes that are instantiated via reflection
@@ -25,7 +25,7 @@
 -keepclassmembers class com.badlogic.gdx.backends.android.AndroidInput* {
     <init>(com.badlogic.gdx.Application, android.content.Context, java.lang.Object, com.badlogic.gdx.backends.android.AndroidApplicationConfiguration);
 }
-
+# Why is this class unresolved??
 -keepclassmembers class com.badlogic.gdx.physics.box2d.World {
     boolean contactFilter(long, long);
     void    beginContact(long);
